@@ -1,0 +1,35 @@
+
+-- hint #1
+-- take a moment to think about which columns you'll actually need to do this There's only a few.
+-- You'll want to be able to produce a result where there's 1 row for each order, with the necessary
+-- columns for each order included.
+
+
+
+
+
+
+
+
+
+-- hint #2 
+-- You then need create a new column that is the date of the previous order to the current order, and do 
+-- that for each customer, so that you can calculate the time interval between orders (for each customer)
+-- what does this sound like?
+
+
+
+
+
+
+
+
+
+
+--hint #3
+-- That's right, a window function. You need to generate a window function, wrap that query into a CTE.
+-- and calculate an interval. Once you can do the intervals between purchases, you should be able to 
+-- get all the necesary outputs. 
+
+
+
