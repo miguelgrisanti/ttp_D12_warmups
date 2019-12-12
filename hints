@@ -1,8 +1,7 @@
 
 -- hint #1
 -- take a moment to think about which columns you'll actually need to do this There's only a few.
--- You'll want to be able to produce a result where there's 1 row for each order, with the necessary
--- columns for each order included.
+-- You'll want to be able to produce a result where there's 1 row for each order.
 
 
 
@@ -27,7 +26,7 @@
 
 
 --hint #3
--- That's right, a window function. You need to generate a window function, wrap that query into a CTE.
+-- That's right, a window function. You need to generate a window function, wrap that query into a CTE,
 -- and calculate an interval. Once you can do the intervals between purchases, you should be able to 
 -- get all the necesary outputs. 
 
