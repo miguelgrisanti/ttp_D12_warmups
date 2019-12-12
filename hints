@@ -29,6 +29,10 @@
 -- That's right, a window function. You need to generate a window function, wrap that query into a CTE,
 -- and calculate an interval. Once you can do the intervals between purchases, you should be able to 
 -- get all the necesary outputs. 
+-- Remember that a window function typically has 3 main parts:
+-- A function applied to the window - MIN, MAX, LEAD, LAG, etc.
+-- (within the window) a part that tells SQL how to section your data.
+-- (within the window) a part that tells SQL in what order of rows to apply the function.
 
 
 
